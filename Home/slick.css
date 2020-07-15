@@ -1,0 +1,51 @@
+/*Slider1*/
+.position-top {
+    position: absolute;
+    top: 35%;
+}
+
+
+ .prev , .next ,.prev1, .next1 ,.prev2,.next2{
+    font-size: 35px;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+}
+.right-0 {
+    right: 5px;
+}
+.slider-btn .prev{
+    margin-left: -19px;
+}
+.site-slider2 .product img{
+   width:90%;
+    margin: auto;
+}
+/*//Slider1*/
+
+/*Slider2*/
+.position-top1 {
+    position: absolute;
+    top: 40%;
+}
+.right-01 {
+    right: 15px;
+}
+.slider-btn .prev1{
+    margin-left: -19px;
+}
+/*//Slider2*/
+
+
+/*Slider 3*/
+.position-top2 {
+    position: absolute;
+    top: 47%;
+}
+.right-02 {
+    right: 15px;
+}
+.slider-btn .prev2{
+    margin-left: -9px;
+}
+
+/*//Slider 3*/

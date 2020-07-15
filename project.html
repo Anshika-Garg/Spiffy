@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiffy</title>
+
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    <style>
+               body{
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        /*Box Shadow to Navigation Bar*/
+        .cont {
+            width: 100%;
+            height: 71px;
+            box-shadow: 0px 7px 9px #e1e3e6 !important;
+           
+           font-weight: 650;
+           z-index: 45;
+        }
+
+        body {
+            height: 5000px;
+        }
+
+        /*Border and Box Shadow of Search Bar*/
+        .change {
+            border: 1px solid #fc2779;
+        }
+        [type=search]:focus {
+            border: 2px solid #fc2779;
+            box-shadow: 0 0 5px #fc2779;
+
+        }
+        
+
+        /*Al ligning left to Login, signup, wishlist, cart in desktop mode*/
+        @media (min-width: 800px) {
+    #ss {
+        margin-left: 400px;
+    }
+}
+        
+        .fa-shopping-basket
+        {
+            margin-right: 5px;
+        }
+        .fa-user{
+            margin-right: 5px;
+
+        }
+        .fa-heart
+        {
+            margin-right: 5px;
+        }
+        .fa-google
+        {
+          margin-right: 5px;
+        }
+        .fa-apple
+        {
+          margin-right: 5px;
+        }
+        .fa-female
+        {
+            margin-right: 5px;
+        }
+        .fa-male
+        {
+            margin-right: 5px;
+        }
+        .fa-facebook-square
+        {
+          margin-right: 5px;
+
+        }
+        .fa-twitter-square
+        {
+          margin-right: 5px;
+        }
+        .fa-youtube-square
+        {
+          margin-right: 5px;
+        }
+        .fa-instagram
+        {
+          margin-right: 5px;
+        }
+
+        .footer
+        {
+          margin-top:4580px;
+          background:#e6e8ed;
+          color:#000;
+
+        }
+        .footer h1
+        {
+          font-size:25px;
+          margin:25px 0;
+          text-align: left;
+          font-weight: 700;
+        }
+        .footer a
+        {
+          font-size:15px;
+          text-decoration: none;
+          padding-bottom: 5px;
+          color: #000; 
+          text-align: left;
+          cursor: pointer;
+          font-weight: 600;
+        }
+        .features 
+          {
+            margin:45px 0px 40px 0px;
+
+        
+          }
+          .features img
+          {
+             display: inline-block;
+             float:left;
+             margin-left:-10px;
+             margin-right: 10px;
+             width: 47.5px;
+             height: 40px;
+               }
+    
+        
+        @media only screen and (max-width:770px)
+        {
+           .form-inline
+           {
+                  width:100%;
+           } 
+           .footer h1
+        {
+          font-size:15px;
+          margin:20px 0;
+          text-align: left;
+          font-weight: 500;
+        }
+           .footer a
+        {
+          font-size:11px;
+          text-decoration: none;
+          padding-bottom: 3px;
+          color: #000; 
+          text-align: left;
+          cursor: pointer;
+          font-weight:300;
+        }
+        
+        
+
+           .features 
+          {
+            margin-top: 20px;
+            padding-right: 5px;
+            padding-left: 4px;
+        
+          }
+          .features b
+          {
+            font-size: 11px;
+            font-weight: bold;
+            
+          }
+          .features p
+          {
+            margin-bottom: 0.67rem;
+            margin-top: 0.67rem;
+            text-align: left;  
+            font-size: 11px;
+               
+           }
+           .features img  
+           {
+             width: 44px;
+             height: 49px;
+           }
+             
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+
+    <div class="cont">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <!--Logo-->
+          <a class="navbar-brand mx" href="project.html">
+         <img src="Logo.jpg" width="90" height="45" alt="" loading="lazy" class="d-inline-block align-top">
+          </a>
+          <nav class="navbar navbar-light bg-light">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </nav>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mr-auto">
+
+                  <!--Link to Women Section-->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-female" aria-hidden="true"></i>
+                          WOMEN
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </li>
+
+                  <!--Link to Men Section-->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-male" aria-hidden="true"></i>
+                          MEN
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-user" aria-hidden="true"></i>PROFILE<span class="sr-only">(current)</span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">LOGIN/SIGNUP<span class="sr-only">(current)</span></a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">MY ACCOUNT</a>
+                      </div>
+                  </li>
+              </ul>
+
+              <!--Link to Profile , Wishlist , Cart , Login , Signup-->
+              <ul class="navbar-nav mr-auto" id="ss">
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-heart" aria-hidden="true"></i>WISHLIST<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>CART<span class="sr-only">(current)</span></a>
+                  </li>
+
+              </ul>
+
+          </div>
+        </nav>
+  </div>
+  <!------------------------------------------------------------------------footer-------------------------------------------------------------------------------------->
+  <div class="footer">
+    <div class="container tex-center">
+      <div class="row">
+        <div class="col-3">
+          <h1>Useful Links</h1>
+          <a href="/privacy.html"><p>privacy policy</p></a>
+          <a href="/terms.html"><p>terms of use </p></a>
+           <a href="/t&c.html"><p>T&C</p></a>
+          <a href="/faq.html"> <p>FAQ</p></a>
+         <a href="/faq.html#shipping"> <p>Shipping</p></a>
+         <a href="/faq.html#tqers" ><p>Track Orders</p></a>
+         <a href="/faq.html#cancel"> <p>Cancellation</p></a>
+         <a href="/faq.html#retrnex"> <p>Returns</p></a>
+        </div>
+        <div class="col-3">
+        <h1>Connect With Us</h1>
+        <a href="https://www.facebook.com/login/"><p><i class="fa fa-facebook-square"></i>
+          Facebook</p></a>
+       <a href=""> <p><i class="fa fa-twitter-square"></i>twitter</p></a>
+       <a href=""> <p><i class="fa fa-instagram"></i>
+          Instagram</p></a>
+       <a href=""> <p><i class="fa fa-youtube-play" ></i>
+          Youtube</p></a>
+      </div>
+
+      <div class="col-6" >
+        <div class="features">
+          <img src="images.jpg"  >
+          <p>
+            <strong>100% original items</strong> &nbsp are available    
+      </p>
+    </div>
+    <div class="features">
+ <img src="download.png" >
+
+ <p>
+            <strong>Return with 30 Days</strong> &nbsp of receving your order
+
+
+      </p>
+      </div>
+      <div class="features">
+         <img src="download (1).png">
+
+        <p>
+            <strong>Get Free Delivery</strong>&nbsp for every order above Rs. 799
+      </p>  
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+         
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+    
+               
+
+</body>
+
+</html>
+   

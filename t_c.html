@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiffy</title>
+
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    <style>
+               body{
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+        /*Box Shadow to Navigation Bar*/
+        .cont {
+            width: 100%;
+            height: 71px;
+            box-shadow: 0px 7px 9px #e1e3e6 !important;
+           
+           font-weight: 650;
+           z-index: 45;
+        }
+
+        body {
+            height: 2000px;
+        }
+
+        /*Border and Box Shadow of Search Bar*/
+        .change {
+            border: 1px solid #fc2779;
+        }
+        [type=search]:focus {
+            border: 2px solid #fc2779;
+            box-shadow: 0 0 5px #fc2779;
+
+        }
+        
+
+        /*Al ligning left to Login, signup, wishlist, cart in desktop mode*/
+        @media (min-width: 800px) {
+    #ss {
+        margin-left: 400px;
+    }
+}
+        
+        .fa-shopping-basket
+        {
+            margin-right: 5px;
+        }
+        .fa-user{
+            margin-right: 5px;
+
+        }
+        .fa-heart
+        {
+            margin-right: 5px;
+        }
+        .fa-google
+        {
+          margin-right: 5px;
+        }
+        .fa-apple
+        {
+          margin-right: 5px;
+        }
+        .fa-female
+        {
+            margin-right: 5px;
+        }
+        .fa-male
+        {
+            margin-right: 5px;
+        }
+        .fa-facebook-square
+        {
+          margin-right: 5px;
+
+        }
+        .fa-twitter-square
+        {
+          margin-right: 5px;
+        }
+        .fa-youtube-square
+        {
+          margin-right: 5px;
+        }
+        .fa-instagram
+        {
+          margin-right: 5px;
+        }
+
+        .footer
+        {
+          margin-top:380px;
+          background:#e6e8ed;
+          color:#000;
+
+        }
+        .footer h1
+        {
+          font-size:25px;
+          margin:25px 0;
+          text-align: left;
+          font-weight: 700;
+        }
+        .footer a
+        {
+          font-size:15px;
+          text-decoration: none;
+          padding-bottom: 5px;
+          color: #000; 
+          text-align: left;
+          cursor: pointer;
+          font-weight: 600;
+        }
+        .features 
+          {
+            margin:45px 0px 40px 0px;
+
+        
+          }
+          .features img
+          {
+             display: inline-block;
+             float:left;
+             margin-left:-10px;
+             margin-right: 10px;
+             width: 47.5px;
+             height: 40px;
+           }
+
+        .tc
+         {
+             width:1000px;
+             display: block;
+             margin: 0 auto;
+         }
+         .cont4
+         {
+             margin-top: 150px;
+             text-align: left;
+         }
+         .tc h1
+         {
+             font-size:18px;
+             padding:5px 0;
+             text-decoration: underline;
+         }
+          .tc li
+          {
+             padding:8px 0;
+             font-size: 15px;
+             overflow-wrap: break-word;
+          }
+          .tc p
+          {
+            margin-block-start: 1em;
+             margin-inline-end: 1em;
+             
+          }
+        
+        @media only screen and (max-width:770px)
+        {
+           .form-inline
+           {
+                  width:100%;
+           } 
+           .footer h1
+        {
+          font-size:15px;
+          margin:20px 0;
+          text-align: left;
+          font-weight: 500;
+        }
+           .footer a
+        {
+          font-size:11px;
+          text-decoration: none;
+          padding-bottom: 3px;
+          color: #000; 
+          text-align: left;
+          cursor: pointer;
+          font-weight:300;
+        }
+           .features 
+          {
+            margin-top: 20px;
+            padding-right: 5px;
+            padding-left: 4px;
+        
+          }
+          .features b
+          {
+            font-size: 11px;
+            font-weight: bold;
+            
+          }
+          .features p
+          {
+            margin-bottom: 0.67rem;
+            margin-top: 0.67rem;
+            text-align: left;  
+            font-size: 11px;
+               
+           }
+           .features img  
+           {
+            width: 44px;
+             height: 49px;
+           }
+           .tc
+           {
+            width:270px;
+             display: block;
+             margin: 0 auto;
+           }
+           .cont4
+         {
+             margin-top: 100px;
+             text-align: left;
+         }
+         .fc h1{
+        
+          font-size:18px;
+             padding:5px 0;
+             text-decoration: underline;
+         }
+
+         .terms-text
+         {
+             margin-block-start: 1rem;
+             margin-inline-end: 1rem;
+             font-size: 10px ;
+         }
+             
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!---------------------------------------------------------------Navigation Bar------------------------------------------------------------------------------------>
+
+    <div class="cont">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+          <!--Logo-->
+          <a class="navbar-brand mx" href="project.html">
+         <img src="Logo.jpg" width="90" height="45" alt="" loading="lazy" class="d-inline-block align-top">
+          </a>
+          <nav class="navbar navbar-light bg-light">
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              </form>
+            </nav>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav mr-auto">
+
+                  <!--Link to Women Section-->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-female" aria-hidden="true"></i>
+                          WOMEN
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </li>
+
+                  <!--Link to Men Section-->
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-male" aria-hidden="true"></i>
+                          MEN
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fa fa-user" aria-hidden="true"></i>PROFILE<span class="sr-only">(current)</span>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">LOGIN/SIGNUP<span class="sr-only">(current)</span></a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">MY ACCOUNT</a>
+                      </div>
+                  </li>
+              </ul>
+
+              <!--Link to Profile , Wishlist , Cart , Login , Signup-->
+              <ul class="navbar-nav mr-auto" id="ss">
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-heart" aria-hidden="true"></i>WISHLIST<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>CART<span class="sr-only">(current)</span></a>
+                  </li>
+
+              </ul>
+
+          </div>
+        </nav>
+  </div>
+  <!--------------------------------------------------------------------------t&c--------------------------------------------------------------------------------------->
+  <div class="tc">
+      <div class="cont4">
+        <u><h1>TERMS AND CONDITIONS</h1></u>
+        
+            <div>
+                Welcome to Spiffy. This page details a limited period Offer provided by our participating sellers redeemable through our Myntra Marketplace Platform only in the mobile application. Please read these terms and conditions carefully before participating. You should understand that by participating in the Offer and using our Platform, you agree to be bound by these terms and conditions including Terms of Use and Privacy Policy of the Platform. Please understand that if you refuse to accept these terms and conditions, you will not be able to access the offers provided under our Platform.
+            </div>
+            <li>
+                <a href="#offer1">EORS June20 - T&Cs</a>
+            </li>
+            <li>
+              <a href="#offer2">Shout & Earn - T&Cs</a>
+            </li>
+           <li>
+             <a href="#offer3">Spiffy Points</a>
+           </li>
+           <li>
+             <a href="">Spiffy Credit - T&C</a>
+           </li>
+           <br>
+           <br>
+           <b id="offer1">
+             <u>EORS June20 - T&Cs</u>
+           </b>
+         
+          <p>The following Terms and Conditions (�Policy�) shall be applicable in respect of all purchases made on the website, www.spiffy.com, Spiffy�s mobile application and mobile site (�Platform�) from  00:00 hours on 10th June 2020  to 1845 hours  on 16th June 2020 (�Pre-buzz�), 1900 hours on 16th June 2020 till 1900_hours on 18th June 2020 (�Price Reveal Period�),  1900 hours on 18th June 2020 till 2300_hours on 18th June 2020 (�EORS slots�), 00:00 hours on 19th June, 2020 to 23:59 hours on 22nd June, 2020 (�EORS Main Event�). The Pre-buzz, Price Reveal Period, EORS slots and the EORS Main Event are collectively referred to as EORS June 2020 hereinafter.  This Policy is in addition to the Spiffy Terms of Use located at  https://www.Spiffy.com/termsofuse and this Policy will be read in conjunction with the said Spiffy Terms of Use and Privacy Policy and other relevant documentation available on the Platform. In the event of any contradiction, the terms of this Policy will apply for purchases made during EORS June 2020.</p>
+           <ol>
+             <li>This document is an electronic record in terms of Information Technology Act, 2000, and the Rules thereunder as applicable and the amended provisions pertaining to electronic records in various statutes as amended by the Information Technology Act, 2000. This electronic record is generated by a computer system and does not require any physical or digital signatures. Wherever the context so requires �You� or �User� shall mean any end customer who makes a purchase on the Platform on the above specified dates of EORS June 2020. �Spiffy�/�We�/�Our� shall mean Spiffy Designs Private Limited.</li>
+           <li>We reserve the right, at our sole discretion, to change, modify, add or remove portions of this document, at any time without any prior written notice to You. If You make any purchase during EORS June 2020, You shall be subject to this Policy. By transacting on the Platform during the EORS June 2020, You hereby agree to be bound by this Policy and the terms contained herein shall govern the purchase(s) made by You.</li>
+          <li>
+            All offers on products shall be limited until stocks last and are for a limited period. Spiffy may at its sole discretion modify or de-list the offers on products without prior notice to You. In such event, the revised offers will be updated on the Platform accordingly.
+
+          </li>
+          <li>
+            Spiffy reserves the right, at their sole discretion, to change, modify, add or remove portions of this Terms and Conditions at any time without any prior written notice to you.The offers during EORS June 2020 are applicable only on select products featured on the Platform.
+          </li> 
+          <li>
+            Spiffy may, at any time due to various reasons, including but not limited to technical errors, unavailability of stocks etc. cancel the orders placed by You on the Platform.
+          </li>
+          <li>
+            Unless otherwise provided, offers during EORS June 2020 may only be applied to one unit of each product. Additionally, unless otherwise specified, You cannot combine two (2) or more offers (including coupons, other offers) for a single order.
+          </li>
+          <li>
+            Certain products, including innerwear, lingerie, socks etc. cannot be returned. Any freebies provided along with a product, may not be available for exchange.
+
+          </li>
+          <li>
+            Applicable delivery options shall be mentioned on the specific product page.
+          </li>
+          <li>
+            Bank offers are subject to the Terms and Conditions of the Banks & Spiffy.
+          </li>
+          <li>
+            Offers extended during the EORS June 2020 are non-transferable, not for resale, and not redeemable for cash.
+          </li>
+          <li>
+            Spiffy shall not be responsible for any loss, injury or any other liability arising due to participation by any person in the offers or in EORS June 2020.
+          </li>
+                
+          </ol>
+          <br>
+          <br>
+          <b id="offer2">
+            <u>Shout & Earn - T&Cs</u></b>
+            <p>
+              <strong>
+                <u>Terms and Conditions for Myntra Shout and Earn - Referral Program</u>
+              </strong>
+            </p>
+            <p>
+              <span>
+                Welcome to Spiffy. This page details a limited period Offer (defined below) made available on Spiffy mobile application, m-site platform and desktop (shall collectively be referred as �Platform�). Spiffy reserves the right to revoke or suspend this Offer at any point of time
+              </span>
+            </p>
+            <p>
+              <span>
+                Please read these terms and conditions carefully before using the Platform (defined below). You should understand that by using the Platform, You agree to be bound by these terms and conditions including �Terms of Use� and �Privacy Policy�. Please understand that if You refuse to accept these terms and conditions, You will not be able to access the Offer provided under the Platform. These terms and conditions are in addition to the Spiffy Terms of Use and Your usage of the Platform shall be construed as Your acceptance of these terms and conditions and You shall remain bound by the same.  
+              </span>
+            </p>
+            <p>
+              <span>
+                <strong>
+                  <u>
+                    Other terms:
+                  </u>
+                </strong>
+              </span>
+            </p>
+            <ul>
+              <li>
+                <span>
+                  Spiffy, in its sole discretion, reserves the right to disqualify any Participant/ Invitee from the benefits of this Offer, if it identifies any fraudulent activity being carried out for the purpose of availing the benefits under the said Offer. The decision of Spiffy in this regard shall be final and binding on the Participant/ Invitee.
+                </span>
+              </li>
+              <li>
+                <span>
+                  Spiffy Points cannot be settled in lieu of cash. Any claim or request towards encashment of Spiffy Points shall not be entertained in any manner whatsoever.
+                </span>
+              </li>
+              <li>
+                <span>
+                  This is a limited period offer.
+                </span>
+              </li>
+                <li>
+                  <span>
+                    This Offer is valid only in India. The minimum age of the Participant or Invitee shall be 18 (eighteen) years.
+                  </span>
+                </li>
+                <li>
+                  <span>
+                    A Participant or Invitee shall not be bound in any way to participate in this Offer. Any participation is voluntary in nature, and the Offer is being made purely on a best effort basis. 
+
+                  </span>
+                </li>
+
+            </ul>
+            <b id="offer3">
+              <u>
+                Spiffy Points
+              </u>
+              <br>
+               <br>
+              <b>Spiffy Points Special Offer
+              <li>
+                Welcome to Spiffy. This page details a limited period offer made available on Spiffy marketplace platform (Myntra) and may be revoked or suspended by Spiffy any time. These terms and conditions are in addition to the Spiffy Terms of Use to which you agree and are bound by using Myntra.
+              </li>
+               <b>
+                Usage conditions
+                <br>
+                <ol>
+                  <li>
+                    400 Spiffy Points (worth Rs. 200) added to select customers' account as a one-time acquisition/retention offer.
+                  </li>
+                  <li>
+                    1 Spiffy Points = Re. 1
+                  </li>
+                  <li>
+                    During this period, a user can redeem these points over multiple orders. These points can be applied on all styles listed on the platform.
+                  </li>
+                  <li>
+                    Spiffy Points can be redeemed by selecting the 'Apply Spiffy Points'apos; option on the payments page.
+                  </li>
+                  <li>
+                    Usage of Spiffy Points is restricted to a maximum of 10% of total order amount (inclusive of Shipping Charge and VAT)
+
+                  </li>
+                </ol>
+               </b>
+               <br>
+               <b>
+                General Terms & Conditions :
+                <br>
+                <ol>
+                  <li>
+                    Customers have been auto allotted slot timings for this offer. The offer and slot timings are communicated to the customers via SMS, email and notifications. It can also be found in the account during the slot timings.
+
+                  </li>
+                  <li>
+                    This offer shall be valid on successful and fulfilled transactions. For the purpose of this sale a fulfilled transaction shall mean an order placed by the customers on the platform which shall be confirmed and received by them on their registered address.
+
+                  </li>
+                  <li>
+                    Customers are advised to check the serviceability with the area pin code before placing any order with Spiffy.
+                  </li>
+                  <li>
+                    The images of the products shown are for visual representation only and may vary from the actual product.
+                  </li>
+                  <li>
+                    Customers are responsible for maintaining the confidentiality of their mobile phones, e-mail accounts and passwords.
+                  </li>
+                  <li>
+                    The images of the products shown are for visual representation only and may vary from the actual product.
+
+                  </li>
+                  <li>
+                    Product warranty shall be regulated by the terms and conditions mentioned on the warranty card of respective products and Spiffy shall not be liable or responsible to the customer in for any indirect or consequential loss or damage.
+                  </li>
+                  <li>
+                    The balance amount, after the offer has been availed, will have to be paid by the customer at the time of purchase.
+                  </li>
+                  <li>
+                    Orders may be split into separate shipments depending upon the products ordered for, despite the customer having made one single consolidated payment against one order ID. Separate shipments, after being split, shall have separate expected delivery period.
+                  </li>
+                  <li>
+                    This offer is subject to the laws of India and all disputes arising hereunder shall be subject to the jurisdiction of courts, tribunals or any other applicable forum at Bengaluru.
+                  </li>
+                </ol>
+                <br>
+                <br>
+                <b id="">
+                  <u>Spiffy Credit - T&C</u>
+                  <br>
+                  <br>
+                  This document is an electronic record in terms of Information Technology Act, 2000 and published in accordance with the provisions of Rule 3) of the Information Technology (Intermediaries guidelines) Rules, 2011 that require publishing the rules and regulations, privacy policy and Terms of Use for access or usage of the platform - www.Spiffy.com (hereinafter referred to as Platform)
+                  <br>
+                  <br>
+                  Your use of the Platform and services and tools are goveed by the following terms and conditions (Terms and Condition) as applicable, including the applicable policies including the privacy policy and Terms of Use available on the Platform. By mere use of the Platform, You shall be contracting with Myntra Designs Private Limited (hereinafter referred to as "Platform),the owner of the Platform. These terms and conditions including the policies constitute your binding obligations, with Spiffy.
+                  <br>
+                  <br>
+                  For these Terms of Use, wherever the context so requires You or User shall mean any natural or legal person who has agreed to become a buyer on Platform by providing data while registering on the Platform as Registered User. The term Spiffy,We,Us,Our shall mean Myntra and its affiliates.
+                   <br>
+                   <br>
+                  <ol>
+                    <li>
+                      The currency of issue of the Spiffy Credit shall be Indian Rupees (INR).
+
+                    </li>
+                    <li>
+                      You can reload the Spiffy Credit by using only those modes of payment as enabled by Us.
+                    </li>
+                    <li>
+                      You represent and warrant that You are legally and fully entitled to use any debit card, credit card, bank or any other mode that You may use to load funds into Your Spiffy Credit. We shall not be held responsible in case.You dont have sufficient funds or authorised access to use such payment modes to load Your Spiffy Credit.
+                    </li>
+                    <li>
+                      You hereby authorize Us to hold, receive and disburse funds in Your Spiffy Credit in accordance with any payment instructions We receive from You.
+                    </li>
+                    <li>
+                      You expressly agree and acknowledge that You shall have no claims against Us for the balance forfeited from Your Spiffy Credit.
+
+                    </li>
+                    <li>
+                      Any and all claims shall be goveed by the laws of India and the courts at Bangalore shall have sole jurisdiction.
+                    </li>
+                  </ol>
+                  <li>
+                    The Contestant hereby agrees to indemnify and keep Skechers and Spiffy, its associated companies, its event management company and their respective directors, officers, employees, contractors and agents, indemnified against any and all losses, claims (including but not limited to third party claims), injuries, costs, fees, fines, penalties, taxes, charges and any other liability arising out of any act of omission, commission, fraud, negligence or misconduct by the Contestant.
+                  </li>
+
+                </b>
+
+               </b>
+
+            </b>
+            </b>
+
+        </div>
+  </div>
+  <!------------------------------------------------------------------------footer-------------------------------------------------------------------------------------->
+  <div class="footer">
+    <div class="container tex-center">
+      <div class="row">
+        <div class="col-3">
+          <h1>Useful Links</h1>
+          <a href="/privacy.html"><p>privacy policy</p></a>
+          <a href="/terms.html"><p>terms of use </p></a>
+           <a href="/t&c.html"><p>T&C</p></a>
+          <a href="/faq.html"> <p>FAQ</p></a>
+         <a href=""> <p>Shipping</p></a>
+         <a href="" ><p>Track Orders</p></a>
+         <a href=""> <p>Cancellation</p></a>
+         <a href=""> <p>Returns</p></a>
+        </div>
+        <div class="col-3">
+        <h1>Connect With Us</h1>
+        <a href="https://www.facebook.com/login/"><p><i class="fa fa-facebook-square"></i>
+          Facebook</p></a>
+       <a href=""> <p><i class="fa fa-twitter-square"></i>twitter</p></a>
+       <a href=""> <p><i class="fa fa-instagram"></i>
+          Instagram</p></a>
+       <a href=""> <p><i class="fa fa-youtube-play" ></i>
+          Youtube</p></a>
+      </div>
+
+      <div class="col-6" >
+        <div class="features">
+          <img src="images.jpg"  >
+          <p>
+            <strong>100% original items</strong> &nbsp are available    
+      </p>
+    </div>
+    <div class="features">
+ <img src="download.png" >
+
+ <p>
+            <strong>Return with 30 Days</strong> &nbsp of receving your order
+
+
+      </p>
+      </div>
+      <div class="features">
+         <img src="download (1).png">
+
+        <p>
+            <strong>Get Free Delivery</strong>&nbsp for every order above Rs. 799
+      </p>  
+      </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+         
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+    
+               
+
+</body>
+
+</html>
+   

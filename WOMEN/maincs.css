@@ -1,0 +1,118 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    height:auto;
+    overflow-x:hidden;
+  }
+
+  /*Box Shadow to Navigation Bar*/
+  .cont {
+    width: 100%;
+    height: 71px;
+    box-shadow: 0px 7px 9px #e1e3e6 !important;
+    position: fixed;
+    font-weight: 650;
+    z-index: 45;
+  }
+
+  /*Border and Box Shadow of Search Bar*/
+  .change {
+    border: 1px solid #fc2779;
+  }
+
+  [type=search]:focus {
+    border: 2px solid #fc2779;
+    box-shadow: 0 0 5px #fc2779;
+
+  }
+
+
+  /*Alligning left to Login, signup, wishlist, cart in desktop mode*/
+  @media (min-width: 800px) {
+    #ss {
+      margin-left: 200px;
+    }
+  }
+
+  .heading-section .big,
+  .big1,.big11 {
+    font-family: "Lato", Arial, sans-serif;
+    position: absolute;
+    top: -57px;
+    left: 0;
+    right: 0;
+    font-size: 103px;
+    color: rgb(0, 0, 0, 0.09);
+    font-weight: 800;
+    letter-spacing: 1px;
+  }
+
+  .heading-section .i1,.i11,
+  h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fc2779;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    letter-spacing: 6px;
+  }
+
+ .t {
+
+    transition: all 0.6s ease-in-out width 2s, height 4s;
+ }
+
+  .t:hover {
+    transform: scale(1.05);
+  }
+  .banner1 {
+
+position: relative;
+margin-left: 35px;
+margin-right: 35px;
+overflow: hidden;
+width: 100%;
+height: auto;
+}
+.set1 {
+transition: all 0.6 ease-in-out;
+border-radius: 10px;
+}
+
+.set1:hover {
+
+transform: scale(1.1);
+border-radius: 10px;
+}
+
+.position-top {
+position: absolute;
+top: 35%;
+}
+
+
+
+.prev , .next {
+font-size: 35px;
+padding: 1rem 1.5rem;
+cursor: pointer;
+}
+.right-0 {
+right: 5px;
+}
+.slider-btn .prev{
+margin-left: -19px;
+}
+.site-slider2 .product img{
+width:90%;
+margin: auto;
+}
+.mpp{
+overflow:hidden
+}
+@media (max-width: 1300px){
+.heading-section .big,.big1,.big11{
+  display:none;
+}
+}
+

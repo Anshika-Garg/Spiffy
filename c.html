@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>JQuery demo</title>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    </head>
+    <body id="bod">
+        <button id="a">Click Here</button><br>
+        Enter number to print its table<input type="number" id="b"><br>
+        <button id="t">Click</button><br>
+        <p id="c">ABES ENGINEERING COLLEGE</p>
+        <button id="bt">Click</button><br><br>
+        <button id="btn">Click</button><br><label id="l"></label><br><br>
+        <button id="b1">Click B1</button><br><br>
+        <button id="b2">Click B2</button><br><br>
+        <button id="b3">Click B3</button><br><br>
+        <p id="test">This paragraph is to demonstrate the working of JQuery.</p>
+        <script>
+            $("#a").click(function(){alert("Message");});
+            $("#t").click(function() {
+                var n=$("#b").val();
+                for(var x=1;x<=10;x++)
+                {
+                    f=n*x;
+                    document.write(n+"*"+x+"="+f+"<br>");}});
+            $("#c").mouseover(function(){
+                var x=document.getElementById("c");
+                x.style.backgroundColor="red";});
+            $("#c").mouseout(function(){
+            var x=document.getElementById("c");
+            x.style.backgroundColor="black";});
+            $("#bt").click(function(){
+            var bod=document.getElementById("bod");
+            bod.style.backgroundColor="red";}); 
+            $("#btn").click(function(){
+            var l=document.getElementById("l");
+            l.innerHTML="DATARITZ TECHNOLOGIES";});
+            $("#b1").click(function(){
+            var test=document.getElementById("test");
+            test.style.color="red";});
+            $("#b2").click(function(){
+            var test=document.getElementById("test");
+            test.style.color="green";});
+            $("#b3").click(function(){
+            var test=document.getElementById("test");
+            test.style.color="black";}); 
+        </script>
+    </body>
+</html>

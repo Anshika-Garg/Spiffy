@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spiffy</title>
+
+    <!-- Bootstrap CSS -->
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+    <style>
+               body{
+            font-family: 'Baloo Bhai 2', cursive;
+
+        }
+
+       /*----------------------NAVIGATION BAR---------------------------- */
+
+        /*Box Shadow to Navigation Bar*/
+        .cont {
+            width: 100%;
+            height: 71px;
+            box-shadow: 0px 7px 9px #e1e3e6 !important;
+            position: fixed;
+            font-weight: 650;
+            z-index: 45;
+            margin-top: -101px;
+        }
+
+
+        /*Border and Box Shadow of Search Bar*/
+        .change {
+            border: 1px solid #fc2779;
+        }
+
+        [type=search]:focus {
+            border: 2px solid #fc2779;
+            box-shadow: 0 0 5px #fc2779;
+
+        }
+
+        /*Alligning left to Login, signup, wishlist, cart in desktop mode*/
+        @media (min-width: 800px) {
+            #ss {
+                margin-right: 30px;
+            }
+        }
+        @media screen and (max-width: 800px) {
+           
+           .cont{
+             margin-top:-100px;
+           }
+       }
+
+        /*----------------------//NAVIGATION BAR\\-----------------------*/
+
+        .footer
+        {
+          margin-top:50px;
+          background:#e6e8ed;
+          color:#000;
+
+        }
+        .footer h1
+        {
+          font-size:25px;
+          margin:25px 0;
+          text-align: left;
+          font-weight: 700;
+        }
+        .footer a
+        {
+          font-size:15px;
+          text-decoration: none;
+          padding-bottom: 5px;
+          color: #000; 
+          text-align: left;
+          cursor: pointer;
+          font-weight: 600;
+        }
+        .features 
+          {
+            margin:45px 0px 40px 0px;
+
+        
+          }
+          .features img
+          {
+             display: inline-block;
+             float:left;
+             margin-left:-10px;
+             margin-right: 10px;
+             width: 47.5px;
+             height: 40px;
+               }
+
+         .terms
+         {
+          width:1000px;
+             display: block;
+             margin: 0 auto;
+         }
+         .cont3
+         {
+             margin-top: 100px;
+             text-align: left;
+
+         }
+         .terms h1{
+             text-align: center;
+             font-weight: 300;
+             font-size: 30px;
+             padding-top:10px;
+             padding-bottom: 20px;
+             
+         }
+         .terms-text
+         {
+             margin-block-start: 1em;
+             margin-inline-end: 1em;
+             font-size: 13px ;
+         }
+         .terms-section
+         {
+          padding-top: 20px;
+           padding-bottom: 10px;
+           display: initial;
+         }
+         .p1
+         {
+             font-size: 20px;
+             font-weight: 600;
+             cursor: pointer;
+             text-align: left;
+           
+         }
+
+
+        
+
+    
+        
+        @media only screen and (max-width:770px)
+        {
+           .form-inline
+           {
+                  width:100%;
+           } 
+           .footer h1
+        {
+          font-size:15px;
+          margin:20px 0;
+          text-align: left;
+          font-weight: 500;
+        }
+           .footer a
+        {
+          font-size:11px;
+          text-decoration: none;
+          padding-bottom: 3px;
+          color: #000; 
+          text-align: left;
+          cursor: pointer;
+          font-weight:300;
+        }
+           .features 
+          {
+            margin-top: 20px;
+            padding-right: 5px;
+            padding-left: 4px;
+        
+          }
+          .features b
+          {
+            font-size: 11px;
+            font-weight: bold;
+            
+          }
+          .features p
+          {
+            margin-bottom: 0.67rem;
+            margin-top: 0.67rem;
+            text-align: left;  
+            font-size: 11px;
+               
+           }
+           .features img  
+           {
+            width: 44px;
+             height: 49px;
+           }
+             
+           .terms
+           {
+            width:270px;
+             display: block;
+             margin: 0 auto;
+           }
+           .cont2
+         {
+             margin-top: 100px;
+             text-align: left;
+         }
+         .terms h1{
+             text-align: center;
+             font-weight: 300;
+             font-size: 30px;
+         }
+         .p1
+         {
+             font-size: 20px;
+             font-weight: 500;
+             cursor: pointer;
+             text-align: left;
+             padding-top: 10px;
+             padding-bottom: 10px;
+         }
+         .terms-text
+         {
+             margin-block-start: 1rem;
+             margin-inline-end: 1rem;
+             font-size: 10px ;
+         }
+
+
+
+
+             
+        }
+        
+    </style>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+
+    <?php
+    if(isset($_SESSION['e']))
+        include("Header.php");
+    else 
+    include("Header2.php");
+?>
+  <!----------------------------------------------------------------------terms of use---------------------------------------------------------------------------------->
+    <div class="terms">
+        <div class="cont3">
+          <h1>SPIFFY:TERMS OF USE</h1>
+          <div class="terms-section">
+            <div class="p1"></div>
+            <div class="terms-text">
+              <p>Welcome to Spiffy. This document is an electronic record in terms of Information Technology Act, 2000 and published in accordance with the provisions of Rule 3 ) of the Information Technology (Intermediaries guidelines) Rules, 2011 that require publishing the rules and regulations, privacy policy and Terms of Use for access or usage of spiffy marketplace platform - www.spiffy.com (hereinafter referred to as "Platform")</p>
+              <p>Your use of the Spiffy and services and tools are governed by the following terms and conditions ("Terms of Use") as applicable to the Spiffy including the applicable policies which are incorporated herein by way of reference. By mere use of the Spiffy, You shall be contracting with Spiffy Designs Private Limited, the owner of the Platform. These terms and conditions including the policies constitute Your binding obligations, with Spiffy.</p>
+               <p>For the purpose of these Terms of Use, wherever the context so requires "You" or "User" shall mean any natural or legal person who has agreed to become a buyer on Platform by providing data while registering on the Platform as Registered User. The term "Spiffy","We","Us","Our" shall mean Spiffy Designs Private Limited and its affiliates.</p>
+               <p>When You use any of the services provided by Us through the Platform, including but not limited to, (e.g. Product Reviews, Seller Reviews), You will be subject to the rules, guidelines, policies, terms, and conditions applicable to such service, and they shall be deemed to be incorporated into this Terms of Use and shall be considered as part and parcel of this Terms of Use. We reserve the right, at Our sole discretion, to change, modify, add or remove portions of these Terms of Use, at any time without any prior written notice to You. You shall ensure to review these Terms of Use periodically for updates/changes. Your continued use of the Platform following the posting of changes will mean that You accept and agree to the revisions. As long as You comply with these Terms of Use, We grant You a personal, non-exclusive, non-transferable, limited privilege to enter and use the Platform. By impliedly or expressly accepting these Terms of Use, You also accept and agree to be bound by Spiffy Policies including but not limited to Privacy Policy as amended from time to time.
+
+              </p>
+              </div>
+            </div>
+          <hr>
+           <div class="terms-section">
+             <div class="p1">1. User Account, Password, and Security:</div>
+             <div class="terms-text">
+               <p>
+                If You use the Platform, You shall be responsible for maintaining the confidentiality of your Display Name and Password and You shall be responsible for all activities that occur under your Display Name and Password. You agree that if You provide any information that is untrue, inaccurate, not current or incomplete, We shall have the right to indefinitely suspend or terminate or block access of your membership on the Platform.
+               </p>
+               <p>You agree to</p>
+               <ul>
+                 <li>
+                   <p>immediately notify Spiffy of any unauthorized use / breach of your password or account and</p>
+                 </li>
+                 <li>
+                   <p>ensure that you exit from your account at the end of each session.
+
+                  </p>
+                 </li>
+               </ul>
+             </div>
+           </div>
+           <hr>
+           <div class="terms-section">
+             <div class="p1">2. Services Offered:</div>
+             <div class="terms-text">
+               <p>Spiffy provides a number of Internet-based services through the Platform. One such Service enables Users to purchase original merchandise such as clothing, footwear and accessories from various fashion and lifestyle brands (collectively, "Products"). The Products can be purchased through the Platform through various methods of payments offered. The sale/purchase of Products shall be additionally governed by specific policies of sale, like cancellation policy, exchange policy, return policy, etc. (which are found on the FAQ tab on the Platform and all of which are incorporated here by reference). It is clarified that at the time of creating a return request, users are required to confirm (via a check box click) that the product being returned is unused and has the original tags intact. If the product returned by the user is used, damaged or if the original tags are missing, the user’s return request shall be declined, and the said product shall be re-shipped back to the customer. In the event that the return request is declined, the user shall not be eligible for a refund, and Spiffy assumes no liability in this regard. Further, in the event that the user fails to accept the receipt of the said re-shipped product, the user shall continue to be not eligible for a refund, and Spiffy assumes no liability with respect to the return or refund for the said re-shipped product. In addition, these Terms of Use may be further supplemented by Product specific conditions, which may be displayed with that Product.</p>
+               <p>Spiffy does not warrant that Product description or other content on the Platform is accurate, complete, reliable, current, or error-free and assumes no liability in this regard.</p>
+              </div>
+           </div>
+           <hr>
+           <div class="terms-section">
+             <div class="p1">3. Platform for Transaction and Communication:</div>
+             <div class="terms-text">
+               <p>
+                The Users utilize to meet and interact with one another for their transactions on the Platform. Spiffy is not and cannot be a party to or control in any manner any transaction between the Spiffy's Users. Henceforward:
+               </p>
+               <ul>
+                 <li>
+                   <p>
+                    All commercial/contractual terms are offered by and agreed to between Buyers and Sellers alone. The commercial/contractual terms include without limitation price, shipping costs, payment methods, payment terms, date, period and mode of delivery, warranties related to products and services and after sales services related to products and services. Spiffy does not have any control or does not determine or advise or in any way involve itself in the offering or acceptance of such commercial/contractual terms between the Buyers and Sellers.
+                   </p>
+                 </li>
+                 <li>
+                   <p>
+                    Spiffy does not make any representation or Warranty as to specifics (such as quality, value, salability, etc) of the products or services proposed to be sold or offered to be sold or purchased on the Platform.
+                   </p>
+                 </li>
+                 <li>
+                   <p>
+                    Spiffy is not responsible for any non-performance or breach of any contract entered into between Buyers and Sellers. Spiffy cannot and does not guarantee that the concerned Buyers and/or Sellers will perform any transaction concluded on the Platform.
+                   </p>
+                 </li>
+                 <li>
+                   <p>
+                    At no time shall Spiffy hold any right, title or interest over the products nor shall Myntra have any obligations or liabilities in respect of such contract entered into between Buyers and Sellers.
+                   </p>
+                 </li>
+                 <li>
+                   <p>
+                    Pricing on any product(s) as is reflected on the Platform may due to some technical issue, typographical error or product information published by seller may be incorrectly reflected and in such an event seller may cancel such your order(s).
+                   </p>
+                 </li>
+               </ul>
+             </div>
+           </div>
+           <hr>
+           <div class="terms-section">
+             <div class="p1">4. Contents Posted on Platform:</div>
+             <div class="terms-text">
+               <p>
+                All text, graphics, user interfaces, visual interfaces, photographs, trademarks, logos, sounds, music and artwork (collectively, "Content"), is a third party user generated content and Spiffy has no control over such third party user generated content as spiffy is merely an intermediary for the purposes of this Terms of Use. Such Content will become Our property and You grant Us the worldwide, perpetual and transferable rights in such Content. We shall be entitled to, consistent with Our Privacy Policy as adopted in accordance with applicable law, use the Content or any of its elements for any type of use forever, including but not limited to promotional and advertising purposes and in any media whether now known or hereafter devised, including the creation of derivative works that may include the Content You provide.
+               </p>
+               <p>You may use information on the products and services purposely made available on the Platform for downloading, provided that You</p>
+               <ul>
+                 <li>
+                   <p>
+                    do not remove any proprietary notice language in all copies of such documents,
+                   </p>
+                 </li>
+                 <li>
+                   <p>
+                    use such information only for your personal, non-commercial informational purpose and do not copy or post such information on any networked computer or broadcast it in any media,
+                   </p>
+                 </li>
+                 <li>
+                   <p>
+                    make no modifications to any such information, and
+                   </p>
+                 </li>
+                 <li>
+                   <p>
+                    do not make any additional representations or warranties relating to such documents.
+                   </p>
+                 </li>
+               </ul>
+             </div>
+           </div>
+           <hr>
+           <div class="terms-section">
+             <div class="p1">5. Disclaimer of Warranties and Liability:</div>
+              <div class="terms-text">
+                <p>
+                  All the materials and products (including but not limited to software) and services, included on or otherwise made available to You through Platform are provided on "as is" and "as available" basis without any representation or warranties, express or implied except otherwise specified in writing. Without prejudice to the forgoing paragraph, Spiffy does not warrant that: Platform will be constantly available, or available at all or The information on Platform is complete, true, accurate or non-misleading.
+                </p>
+                <p>
+                  All the Products sold on Platform are governed by different state laws and if Seller is unable to deliver such Products due to implications of different state laws, Seller will return or will give credit for the amount (if any) received in advance by Seller from the sale of such Product that could not be delivered to You. You will be required to enter a valid phone number while placing an order on the Platform. By registering Your phone number with us, You consent to be contacted by Us via phone calls and/or SMS notifications, in case of any order or shipment or delivery related updates. We will not use your personal information to initiate any promotional phone calls or SMS.
+                </p>
+
+              </div>
+           </div>
+           <hr>
+           <div class="terms-section">
+             <div class="p1">8. Selling:</div>
+             <div class="terms-text">
+               <p>
+                As a registered seller, you are allowed to list item(s) for sale on the Platform in accordance with the Policies which are incorporated by way of reference in this Terms of Use. You must be legally able to sell the item(s) you list for sale on the Platform. You must ensure that the listed items do not infringe upon the intellectual property, trade secret or other proprietary rights or rights of publicity or privacy rights of third parties. Listings may only include text descriptions, graphics and pictures that describe your item for sale. All listed items must be listed in an appropriate category on the Platform. All listed items must be kept in stock for successful fulfilment of sales. The listing description of the item must not be misleading and must describe actual condition of the product. If the item description does not match the actual condition of the item, you agree to refund any amounts that you may have received from the Buyer. You agree not to list a single product in multiple quantities across various categories on the Platform. Spiffy reserves the right to delete such multiple listings of the same product listed by you in various categories.
+               </p>
+               <p>
+                We may provide you alternation services (limited to alteration of length, alteration of the waist size) for the garments purchased by You from Us. This service shall be free of cost and no amount would be collected from You for such alteration. However, a nominal fee as mentioned by Spiffy at the time of creating the alteration request (inclusive of service tax) would be applicable as convenience charge towards pick up and drop of the garments or towards tailor visit (wherever applicable).
+               </p>
+             </div>
+           </div>
+           <hr>
+           <div class="terms-section">
+             <div class="p1">7. E-Platform for Communication:
+            </div>
+            <div class="terms-text">
+              <p>
+                You agree, understand and acknowledge that Spiffy is an online platform that enables you to purchase products listed on the Platform at the price indicated therein at any time. You further agree and acknowledge that Spiffy is only a facilitator and is not and cannot be a party to or control in any manner any transactions on Spiffy.
+              </p>
+            </div>
+           </div>
+           <hr>
+           <div class="terms-section">
+           <div class="p1">8. Indemnity:
+          </div>
+          <div class="terms-text">
+            <p>
+              ou shall indemnify and hold harmless Spiffy, its owner, licensee, affiliates, subsidiaries, group companies (as applicable) and their respective officers, directors, agents, and employees, from any claim or demand, or actions including reasonable attorneys' fees, made by any third party or penalty imposed due to or arising out of Your breach of this Terms of Use, privacy Policy and other Policies, or Your violation of any law, rules or regulations or the rights (including infringement of intellectual property rights) of a third party.
+            </p>
+          </div>
+        </div>
+        <hr>
+         <div class="terms-section">
+           <div class="p1">9. Jurisdictional Issues/Sale in India Only:</div>
+           <div class="terms-text">
+             <p>
+              Unless otherwise specified, the material on the Platform is presented solely for the purpose of sale in India. Spiffy make no representation that materials in the Platform are appropriate or available for use in other locations/Countries other than India. Those who choose to access Platform from other locations/Countries other than India do so on their own initiative and Spiffy is not responsible for supply of products/refund for the products ordered from other locations/Countries other than India, compliance with local laws, if and to the extent local laws are applicable.
+             </p>
+           </div>
+         </div>
+         <hr>
+         <div class="terms-section">
+           <div class="p1">10. Disclaimer:</div>
+           <div class="terms-text">
+             <p>
+              You acknowledge and undertake that you are accessing the services on the Platform and transacting at your own risk and are using your best and prudent judgment before entering into any transactions through Spiffy. We shall neither be liable nor responsible for any actions or inactions of sellers nor any breach of conditions, representations or warranties by the sellers or manufacturers of the products and hereby expressly disclaim and any all responsibility and liability in that regard. We shall not mediate or resolve any dispute or disagreement between You and the sellers or manufacturers of the products. We further expressly disclaim any warranties or representations (express or implied) in respect of quality, suitability, accuracy, reliability, completeness, timeliness, performance, safety, merchantability, fitness for a particular purpose, or legality of the products listed or displayed or transacted or the content (including product or pricing information and/or specifications) on Platform. While we have taken precautions to avoid inaccuracies in content, this website, all content, information (including the price of products), software, products, services and related graphics are provided as is, without warranty of any kind. At no time shall any right,title or interest in the products sold through or displayed on Platform vest with Spiffy nor shall Spiffy have any obligations or liabilities in respect of any transactions on Platform.
+             </p>
+             <p>
+              Delivery Related - User agrees and acknowledges that any claims regarding order delivery (including non-receipt/ non- delivery of order or signature verification) shall be notified to Spiffy within 5 days from the alleged date of delivery of product reflecting on the Spiffy portal. Non notification by You of non-receipt or non-delivery within the time period specified shall be construed as a deemed delivery in respect of that transaction. Spiffy disclaims any liability or responsibility for claims regarding non-delivery, non-receipt of order (including signature verification in Proof of delivery) after 5 days from the alleged date of delivery of product reflecting on the Spiffy portal.
+             </p>
+           </div>
+         </div>
+          </div>
+        </div>
+  
+  <!------------------------------------------------------------------------footer-------------------------------------------------------------------------------------->
+  <?php include("Footer.php"); ?>
+  
+    
+         
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Bootstrap JS -->
+    <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+    
+               
+
+</body>
+
+</html>
