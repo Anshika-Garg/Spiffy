@@ -148,7 +148,7 @@ ul{
         </a>
       </div>
       <div class="col-md-3 t">
-        <a href="WomenDisplay.php?ee=MNightWear&cat=NightWear" style="text-decoration:none;"><img src="MenNight/slogan pj set a.webP" class="rounded mx-auto d-block" height="auto" width="90%">
+        <a href="WomenDisplay.php?ee=MNightWear&cat=NightWear" style="text-decoration:none;"><img src="MenNight/slogan pj set a.webp" class="rounded mx-auto d-block" height="auto" width="90%">
         <h3 style="text-align:center; background-color:lemonchiffon; color:maroon;">NightWear</h3>
         </a>
       </div>
