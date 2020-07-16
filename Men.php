@@ -202,7 +202,7 @@ ul{
                       <div class="col-md-2 product md-5 ml-0 pl-0">
                         <div class="mpp">
                         <a href="UnderOffer.php?price=499&cat=&category=M" style="text-decoration: none;"class="remove1">
-                          <img src="MEN/s1.webP" class="set1" alt="">
+                          <img src="MEN/s1.webp" class="set1" alt="">
                         </div>
                       
                           <div class="border site-btn btn-span set2">UNDER<sup>₹</sup>499 STORE <br> <p class="remove">+EXPLORE</p></a></div>
@@ -349,7 +349,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=213" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="MenNight/chevron print set a.WebP" height="auto" width="90%" onmouseover="this.src='MenNight/chevron print set b.webp'" onmouseout="this.src='MenNight/chevron print set a.WebP'">
+                                        <img class="bord" src="MenNight/chevron print set a.webp" height="auto" width="90%" onmouseover="this.src='MenNight/chevron print set b.webp'" onmouseout="this.src='MenNight/chevron print set a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Chevron Print Set</small>
                                     <p><b>₹799</b></p>
@@ -393,7 +393,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=227" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="MenNight/vertical stripe set a.WebP" height="auto" width="90%" onmouseover="this.src='MenNight/vertical stripe set b.WebP'" onmouseout="this.src='MenNight/vertical stripe set a.WebP'">
+                                        <img class="bord" src="MenNight/vertical stripe set a.webp" height="auto" width="90%" onmouseover="this.src='MenNight/vertical stripe set b.webp'" onmouseout="this.src='MenNight/vertical stripe set a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Vertical Stripe Set</small>
                                     <p><b>₹899</b></p>
@@ -437,7 +437,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=222" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="MenNight/scroll print set a.WebP" height="auto" width="90%" onmouseover="this.src='MenNight/scroll print set b.WebP'" onmouseout="this.src='MenNight/scroll print set a.WebP'">
+                                        <img class="bord" src="MenNight/scroll print set a.webp" height="auto" width="90%" onmouseover="this.src='MenNight/scroll print set b.webp'" onmouseout="this.src='MenNight/scroll print set a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Scroll Print Set</small>
                                     <p><b>₹899</b></p>
