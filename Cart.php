@@ -161,7 +161,7 @@
             <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-md-4 text-center">
-                        <img src="empty-cart.webP" alt="">
+                        <img src="empty-cart.webp" alt="">
                         <h3 style="margin-top:20px;"><b>No Items in Cart</b></h3>
                         <p>Add items you want to shop</p>
                        <a href="Home.php"><button class="b">Start Shopping</button></a> 
