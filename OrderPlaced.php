@@ -75,14 +75,13 @@
         }
         
         .info{
-            width:50%;
-            height:200px;
+            width:auto;
+            height:auto;
             border:2px solid gray;
             background-color:#fc2779;
             border:none;
             color:white;
             font-weight:bold;
-            margin-left:200px;
             border-radius:5px;
             box-shadow:0 0 5px #bb064b;
         }
