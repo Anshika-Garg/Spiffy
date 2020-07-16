@@ -1,5 +1,9 @@
 <?php
     session_start();
+    if(isset($_SESSON['e']))
+    {
+        header("location:../Home.php");
+    }
     
 ?>
 <!DOCTYPE html>
@@ -353,7 +357,7 @@
                         <div class="col-md-8 ">
                             <div class="form-group" style="margin-top:20px;">
                                 <?php if(isset($_SESSION['wrong'])) { ?> 
-                                    <small><?php echo $_SESSION['wrong']; ?></small>
+                                    <small style="color:red;"><?php echo $_SESSION['wrong']; ?></small>
                                 <?php session_destroy(); } ?>
                                 <button type="submit" class="btn b">Login</button>
                             </div>
