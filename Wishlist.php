@@ -160,7 +160,7 @@
                     <div class="row">
                     <div class="col-md-4"></div>
                     <div class="col-md-4 text-center">
-                        <img src="empty-wishlist.webP" alt="">
+                        <img src="empty-wishlist.webp" alt="">
                         <h3 style="margin-top:20px;"><b>No Items in Wishlist</b></h3>
                         <p>Save your favourite items here</p>
                        <a href="Home.php"><button class="b">Start Shopping</button></a> 
