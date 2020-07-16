@@ -644,7 +644,7 @@
 
                             <div class="col-lg-4 pr-0 pl-0 text-center x2" >
                                 <div class="product-large">
-                                    <img src="Home/Manc.jpg" alt="" class="img-fluid img-responsive"style="">
+                                    <img src="Home/ManC.jpg" alt="" class="img-fluid img-responsive"style="">
                                     <div class="centered2">
                                         <h2 style="margin-left: 25px;">Men</h2>
                                         <a href="Men.php" style="margin-left: 15px;">Discover More</a>
