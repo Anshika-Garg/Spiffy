@@ -114,18 +114,18 @@ ul{
             <div class=col-md-1>
             </div>
             <div class="col-md-3 t">
-                <a href="WomenDisplay.php?ee=Tops&cat=Tops" style="text-decoration:none;"><img src="WOMEN/tops.webP" class="rounded mx-auto d-block" height="auto" width="90%">
+                <a href="WomenDisplay.php?ee=Tops&cat=Tops" style="text-decoration:none;"><img src="WOMEN/tops.webp" class="rounded mx-auto d-block" height="auto" width="90%">
                 <div class="bb">
                     <h3 style="text-align:center; background-color:lemonchiffon; color:maroon; ">Tops</h3></a>
                 </div>
             </div>
             <div class="col-md-3 t">
-                <a href="WomenDisplay.php?ee=Jeans&cat=Jeans" style="text-decoration:none;"><img src="WOMEN/jeansn.webP" class="rounded mx-auto d-block" height="auto"
+                <a href="WomenDisplay.php?ee=Jeans&cat=Jeans" style="text-decoration:none;"><img src="WOMEN/jeansn.webp" class="rounded mx-auto d-block" height="auto"
                         width="90%">
                 <h3 style="text-align:center; background-color:lemonchiffon; color:maroon;">Jeans</h3></a>
             </div>
             <div class="col-md-3 t">
-                <a href="WomenDisplay.php?ee=Dresses&cat=Dresses" style="text-decoration:none;"><img src="WOMEN/dress.webP" class="rounded mx-auto d-block" height="auto"
+                <a href="WomenDisplay.php?ee=Dresses&cat=Dresses" style="text-decoration:none;"><img src="WOMEN/dress.webp" class="rounded mx-auto d-block" height="auto"
                         width="90%">
                 <h3 style="text-align:center; background-color:lemonchiffon; color:maroon;">Dresses</h3></a>
             </div>
@@ -136,7 +136,7 @@ ul{
             <div class=col-md-1>
             </div>
             <div class="col-md-3 t">
-                <a href="WomenDisplay.php?ee=Kurtis&cat=Kurtis" style="text-decoration:none;"> <img src="WOMEN/kurti.webP" class="rounded mx-auto d-block" height="auto" width="90%">
+                <a href="WomenDisplay.php?ee=Kurtis&cat=Kurtis" style="text-decoration:none;"> <img src="WOMEN/kurti.webp" class="rounded mx-auto d-block" height="auto" width="90%">
                 <h3 style="text-align:center; background-color:lemonchiffon; color:maroon;">Kurtis</h3></a>
             </div>
             <div class="col-md-3 t">
@@ -166,7 +166,7 @@ ul{
           ; background-color:lemonchiffon; color:maroon;">Sweatshirts</h3></a>
             </div>
             <div class="col-md-3 t">
-                <a href="WomenDisplay.php?ee=NightWear&cat=NightWear" style="text-decoration:none;"><img src="WOMEN/WEAR.webP" class="rounded mx-auto d-block" height="auto" width="90%">
+                <a href="WomenDisplay.php?ee=NightWear&cat=NightWear" style="text-decoration:none;"><img src="WOMEN/WEAR.webp" class="rounded mx-auto d-block" height="auto" width="90%">
                 <h3 style="text-align:center; background-color:lemonchiffon; color:maroon;">Night Wear</h3></a>
             </div>
 
@@ -195,7 +195,7 @@ ul{
                         <div class="col-md-2 product md-5 ml-0 pl-0">
                             <div class="mpp">
                             <a href="UnderOffer.php?price=499&cat=&category=W" style="text-decoration: none;"class="remove1">
-                                <img src="WOMEN/bpi.webP" class="set1" alt="">
+                                <img src="WOMEN/bpi.webp" class="set1" alt="">
                             </div>
 
                             <div class="border site-btn btn-span set2">
@@ -208,7 +208,7 @@ ul{
                         <div class="col-md-2 product md-5 ml-0 pl-0">
                             <div class="mpp">
                             <a href="UnderOffer.php?price=699&cat=&category=W" style="text-decoration: none;" class="remove1">
-                                <img src="WOMEN/bps.webP" class="set1" alt="">
+                                <img src="WOMEN/bps.webp" class="set1" alt="">
                             </div>
                             <div class="border site-btn btn-span set2">UNDER<sup>₹</sup>699 STORE <br>
                                     <p class="remove">+EXPLORE</p>
@@ -240,7 +240,7 @@ ul{
                         <div class="col-md-2 product md-5 ml-0 pl-0">
                             <div class="mpp">
                             <a href="CarousalW.php?price=&cat=" style="text-decoration: none;" class="remove1">
-                                <img src="WOMEN/ipi.webP" class="set1" alt="">
+                                <img src="WOMEN/ipi.webp" class="set1" alt="">
                             </div>
                             <div class="border site-btn btn-span set2">FLAT 50% OFF <br>
                                     <p class="remove">+EXPLORE</p>
@@ -250,7 +250,7 @@ ul{
                         <div class="col-md-2 product md-5 ml-0 pl-0">
                             <div class="mpp">
                             <a href="CarousalW.php?price=&cat=" style="text-decoration: none;" class="remove1">
-                                <img src="WOMEN/bella.webP" class="set1" alt="">
+                                <img src="WOMEN/bella.webp" class="set1" alt="">
                             </div>
                             <div class="border site-btn btn-span set2">FLAT 40% OFF <br>
                                     <p class="remove">+EXPLORE</p>
@@ -326,7 +326,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=3" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenSmall/3.webP" height="auto" width="90%" onmouseover="this.src='WomenSmall/3a.webP'" onmouseout="this.src='WomenSmall/3.webP'">
+                                        <img class="bord" src="WomenSmall/3.webp" height="auto" width="90%" onmouseover="this.src='WomenSmall/3a.webp'" onmouseout="this.src='WomenSmall/3.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Ruffle Sleeve Crop Top</small>
                                     <p><b>₹800</b></p>
@@ -337,7 +337,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=17" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenJeans/5 pocket jeans a.webP" height="auto" width="90%" onmouseover="this.src='WomenJeans/5 pocket jeans b.webP'" onmouseout="this.src='WomenJeans/5 pocket jeans a.webP'">
+                                        <img class="bord" src="WomenJeans/5 pocket jeans a.webp" height="auto" width="90%" onmouseover="this.src='WomenJeans/5 pocket jeans b.webp'" onmouseout="this.src='WomenJeans/5 pocket jeans a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Pocket Jeans</small>
                                     <p><b>₹1299</b></p>
@@ -348,7 +348,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=10" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenSmall/11.webP" height="auto" width="90%" onmouseover="this.src='WomenSmall/11a.webP'" onmouseout="this.src='WomenSmall/11.webP'">
+                                        <img class="bord" src="WomenSmall/11.webp" height="auto" width="90%" onmouseover="this.src='WomenSmall/11a.webp'" onmouseout="this.src='WomenSmall/11.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Mock Neck Glitter Black Top</small>
                                     <p><b>₹1999</b></p>
@@ -359,7 +359,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=37" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenDress/floral print dress a.webP" height="auto" width="90%" onmouseover="this.src='WomenDress/floral print dress b.webP'" onmouseout="this.src='WomenDress/floral print dress a.webP'">
+                                        <img class="bord" src="WomenDress/floral print dress a.webp" height="auto" width="90%" onmouseover="this.src='WomenDress/floral print dress b.webp'" onmouseout="this.src='WomenDress/floral print dress a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Floral Print Dress</small>
                                     <p><b>₹1049</b></p>
@@ -370,7 +370,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=31" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenJeans/split leg jeans a.webP" height="auto" width="90%" onmouseover="this.src='WomenJeans/split leg jeans b.webP'" onmouseout="this.src='WomenJeans/split leg jeans a.webP'">
+                                        <img class="bord" src="WomenJeans/split leg jeans a.webp" height="auto" width="90%" onmouseover="this.src='WomenJeans/split leg jeans b.webp'" onmouseout="this.src='WomenJeans/split leg jeans a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Split Leg Jeans</small>
                                     <p><b>₹3999</b></p>
@@ -392,7 +392,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=44" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenDress/tie hem dress a.webP" height="auto" width="90%" onmouseover="this.src='WomenDress/tie hem dress b.webP'" onmouseout="this.src='WomenDress/tie hem dress a.webP'">
+                                        <img class="bord" src="WomenDress/tie hem dress a.webp" height="auto" width="90%" onmouseover="this.src='WomenDress/tie hem dress b.webp'" onmouseout="this.src='WomenDress/tie hem dress a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Tie Hem Dress</small>
                                     <p><b>₹1299</b></p>
@@ -414,7 +414,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=86" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenSkirt/maxi skirt a.webP" height="auto" width="90%" onmouseover="this.src='WomenSkirt/maxi skirt d.webP'" onmouseout="this.src='WomenSkirt/maxi skirt a.webP'">
+                                        <img class="bord" src="WomenSkirt/maxi skirt a.webp" height="auto" width="90%" onmouseover="this.src='WomenSkirt/maxi skirt d.webp'" onmouseout="this.src='WomenSkirt/maxi skirt a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Maxi Skirt</small>
                                     <p><b>₹1699</b></p>
@@ -425,7 +425,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=127" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenNight/cotton pj set a.webP" height="auto" width="90%" onmouseover="this.src='WomenNight/cotton pj set b.webP'" onmouseout="this.src='WomenNight/cotton pj set a.webP'">
+                                        <img class="bord" src="WomenNight/cotton pj set a.webp" height="auto" width="90%" onmouseover="this.src='WomenNight/cotton pj set b.webp'" onmouseout="this.src='WomenNight/cotton pj set a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Cotton PJ Set</small>
                                     <p><b>₹1119</b></p>
@@ -436,7 +436,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=132" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenNight/pink tee shorts set a.webP" height="auto" width="90%" onmouseover="this.src='WomenNight/pink tee shorts set b.webP'" onmouseout="this.src='WomenNight/pink tee shorts set a.webP'">
+                                        <img class="bord" src="WomenNight/pink tee shorts set a.webp" height="auto" width="90%" onmouseover="this.src='WomenNight/pink tee shorts set b.webp'" onmouseout="this.src='WomenNight/pink tee shorts set a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Pink Tee Shorts Set</small>
                                     <p><b>₹2199</b></p>
@@ -447,7 +447,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="ProductView.php?r=83" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenSkirt/fringe pencil skirt a.webP" height="auto" width="90%" onmouseover="this.src='WomenSkirt/fringe pencil skirt d.webP'" onmouseout="this.src='WomenSkirt/fringe pencil skirt a.webP'">
+                                        <img class="bord" src="WomenSkirt/fringe pencil skirt a.webp" height="auto" width="90%" onmouseover="this.src='WomenSkirt/fringe pencil skirt d.webp'" onmouseout="this.src='WomenSkirt/fringe pencil skirt a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Fringe Pencil Skirt</small>
                                     <p><b>₹2499</b></p>
@@ -480,7 +480,7 @@ ul{
                         <li class="product">
                             <div class="pro">                                       
                                     <a href="#" style="text-decoration:none; color:black;">
-                                        <img class="bord" src="WomenDress/leopard print dress a.webP" height="auto" width="90%" onmouseover="this.src='WomenDress/leopard print dress b.webP'" onmouseout="this.src='WomenDress/leopard print dress a.webP'">
+                                        <img class="bord" src="WomenDress/leopard print dress a.webp" height="auto" width="90%" onmouseover="this.src='WomenDress/leopard print dress b.webp'" onmouseout="this.src='WomenDress/leopard print dress a.webp'">
                                     <div class="set2">
                                     <small style="color:gray;">Leopard Print Dress</small>
                                     <p><b>₹1449</b></p>
